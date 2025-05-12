@@ -1,0 +1,86 @@
+html{
+    box-sizing: border-box;
+    padding: 0 auto;
+}
+body{
+    background-color: #eee;
+    font-family: "Press Start 2P", system-ui;
+  /* font-weight: 400;
+  font-style: normal; */
+}
+
+.container{
+    /* padding: 50px; */
+    padding-top: 5px;
+    margin: 0 auto ;
+    border: solid red 2px;
+    text-align: center;
+    height: 525px;                 
+    width: 450px;
+    background-color: rgb(211, 188, 10);
+   }
+
+   h1{
+    font-size: 20px;
+    font-family: "Press Start 2P", system-ui;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-weight: 400;
+   }
+
+   .between{
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+       }
+
+   .guess{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid 2px black;
+    outline: none;
+    font-family: "Press Start 2P", system-ui;
+   margin-bottom: 15px;
+   margin-top: 15px;
+   }
+
+   .check{
+    padding: 10px;
+    /* padding: 5px; */
+    width: 100px;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-weight: 400;
+    font-family: "Press Start 2P", system-ui;
+    margin-bottom: 10px;
+}
+
+.check:hover{
+    cursor:pointer;
+    background: #d8d5d5;
+    font-weight: 500;
+     
+}
+
+.number{
+   border: solid 5px black;
+   width: 50px;
+   padding: 5px;
+   text-align: center;
+   align-items: center;
+   margin: 0 auto;
+   background-color: whitesmoke;
+   display: none;
+    
+}
+
+.again{
+    margin-top: 55px;
+    padding: 15px;
+    font-weight: 400;
+    font-family: "Press Start 2P", system-ui;
+
+}
