@@ -1,9 +1,18 @@
+"use strict"
 let SecretNum = Math.trunc(Math.random()*20+1);
 
 let score = 20; 
 
 let highScore = 0
 
+// function setScore(value){
+//     const clampedScore = Math.max(-1, Math.min(20, value));
+//     return clampedScore
+
+// }
+
+// score = setScore(score)
+// console.log(score)
 
 
 document.querySelector('.check').addEventListener('click',function(){
@@ -60,7 +69,7 @@ else if (Guess < SecretNum){
     }
 }
 
-console.log(score )
+
 })
 
 document.querySelector('.again').addEventListener('click', function(){
@@ -70,5 +79,8 @@ document.querySelector('.again').addEventListener('click', function(){
     document.querySelector('.number').textContent = '';
     document.querySelector('.guess').value = ''
     document.querySelector('.container').style.backgroundColor = 'rgb(211, 188, 10)'
-    document.querySelector('.number').style.display = 'none'
+    document.querySelector('.number').style.display = 'none',
+    document.querySelector('.Highscore').textContent = 0,
+    document.querySelector('.score').textContent = 0
 })
+
